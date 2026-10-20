@@ -1,0 +1,4 @@
+# Batch files must keep CRLF line endings or cmd mis-parses labels.
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.rc  text eol=crlf

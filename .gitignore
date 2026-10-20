@@ -1,0 +1,15 @@
+# Build output
+build/
+out/
+
+# Release packages (published as GitHub release assets, not committed)
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors
+.vs/
+.vscode/
+*.user
