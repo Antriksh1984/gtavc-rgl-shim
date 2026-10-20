@@ -6,7 +6,7 @@ Most GTA Vice City mods need the original 1.0 executable, but the Rockstar Games
 
 > Unofficial fan project, not affiliated with or endorsed by Rockstar Games or Take-Two. It contains no game files and never modifies `gta-vc.exe`.
 >
-> Sister project for GTA III: [gta3-rgl-shim](https://github.com/Antriksh1984/gta3-rgl-shim). Both work the same way.
+> Sister projects: [gta3-rgl-shim](https://github.com/Antriksh1984/gta3-rgl-shim) for GTA III and [gtasa-rgl-shim](https://github.com/Antriksh1984/gtasa-rgl-shim) for San Andreas. All three work the same way.
 
 ## Download and install
 
@@ -113,8 +113,15 @@ scripts/        install / uninstall / package scripts (PowerShell)
 packaging/      Install.bat, Uninstall.bat and the end-user README.txt for the zip
 tools/          inspect_pe.py, a read-only PE inspector used for the analysis
 docs/           technical notes
+icons/          remastered game icons (.7z) and their preview image
 TESTING.md      manual test checklist
 ```
+
+## Remastered icons
+
+![GTA III, Vice City and San Andreas remastered icons](icons/preview.webp)
+
+[`icons/GTA Trilogy Remastered Icons.7z`](icons/GTA%20Trilogy%20Remastered%20Icons.7z) has remastered icons for all three games: `GTA3.ico`, `GTAVC.ico` and `GTASA.ico`. To use one, extract the archive, right-click a game shortcut, choose **Properties** → **Change Icon…**, and pick the `.ico` file.
 
 ## After a launcher update or "Verify files"
 
